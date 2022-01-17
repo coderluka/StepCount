@@ -11,6 +11,9 @@
 		A1DDD3442795A2F8002B5379 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DDD3432795A2F8002B5379 /* ContentView.swift */; };
 		A1DDD3462795A2FA002B5379 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1DDD3452795A2FA002B5379 /* Assets.xcassets */; };
 		A1DDD3492795A2FA002B5379 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1DDD3482795A2FA002B5379 /* Preview Assets.xcassets */; };
+		A1DDD3562795A366002B5379 /* PolynomialRegression.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DDD3512795A366002B5379 /* PolynomialRegression.swift */; };
+		A1DDD3572795A366002B5379 /* PRMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DDD3522795A366002B5379 /* PRMatrix.swift */; };
+		A1DDD3582795A366002B5379 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A1DDD3552795A366002B5379 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,10 @@
 		A1DDD3432795A2F8002B5379 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A1DDD3452795A2FA002B5379 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1DDD3482795A2FA002B5379 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A1DDD3512795A366002B5379 /* PolynomialRegression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PolynomialRegression.swift; sourceTree = "<group>"; };
+		A1DDD3522795A366002B5379 /* PRMatrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PRMatrix.swift; sourceTree = "<group>"; };
+		A1DDD3542795A366002B5379 /* PolynomialRegression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PolynomialRegression.h; sourceTree = "<group>"; };
+		A1DDD3552795A366002B5379 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +42,7 @@
 		A1DDD3352795A2F8002B5379 = {
 			isa = PBXGroup;
 			children = (
+				A1DDD34F2795A34C002B5379 /* PolynomialRegression */,
 				A1DDD3402795A2F8002B5379 /* StepCount */,
 				A1DDD33F2795A2F8002B5379 /* Products */,
 			);
@@ -65,6 +73,33 @@
 				A1DDD3482795A2FA002B5379 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A1DDD34F2795A34C002B5379 /* PolynomialRegression */ = {
+			isa = PBXGroup;
+			children = (
+				A1DDD3532795A366002B5379 /* PolynomialRegression */,
+				A1DDD3502795A366002B5379 /* PolynomialRegressionSwift */,
+			);
+			path = PolynomialRegression;
+			sourceTree = "<group>";
+		};
+		A1DDD3502795A366002B5379 /* PolynomialRegressionSwift */ = {
+			isa = PBXGroup;
+			children = (
+				A1DDD3512795A366002B5379 /* PolynomialRegression.swift */,
+				A1DDD3522795A366002B5379 /* PRMatrix.swift */,
+			);
+			path = PolynomialRegressionSwift;
+			sourceTree = "<group>";
+		};
+		A1DDD3532795A366002B5379 /* PolynomialRegression */ = {
+			isa = PBXGroup;
+			children = (
+				A1DDD3542795A366002B5379 /* PolynomialRegression.h */,
+				A1DDD3552795A366002B5379 /* Info.plist */,
+			);
+			path = PolynomialRegression;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +162,7 @@
 			files = (
 				A1DDD3492795A2FA002B5379 /* Preview Assets.xcassets in Resources */,
 				A1DDD3462795A2FA002B5379 /* Assets.xcassets in Resources */,
+				A1DDD3582795A366002B5379 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +173,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1DDD3572795A366002B5379 /* PRMatrix.swift in Sources */,
+				A1DDD3562795A366002B5379 /* PolynomialRegression.swift in Sources */,
 				A1DDD3442795A2F8002B5379 /* ContentView.swift in Sources */,
 				A1DDD3422795A2F8002B5379 /* StepCountApp.swift in Sources */,
 			);
